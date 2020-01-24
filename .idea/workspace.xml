@@ -2,10 +2,170 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a212252-583c-4454-8234-ac3deb096ec5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mfzz.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MFCC_python.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocess/face_align.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/face_align.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/10.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/10.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/100.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/100.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/101.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/101.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/102.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/102.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/103.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/103.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/104.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/104.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/105.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/105.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/106.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/106.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/107.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/107.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/108.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/108.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/109.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/109.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/11.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/11.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/110.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/110.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/111.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/111.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/112.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/112.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/113.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/113.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/114.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/114.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/115.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/115.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/116.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/116.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/117.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/117.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/118.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/118.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/119.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/119.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/12.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/12.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/120.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/120.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/121.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/121.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/122.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/122.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/123.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/123.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/124.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/124.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/125.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/125.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/126.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/126.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/127.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/127.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/128.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/128.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/129.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/129.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/13.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/13.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/130.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/130.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/131.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/131.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/132.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/132.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/133.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/133.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/134.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/134.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/135.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/135.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/136.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/136.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/137.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/137.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/138.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/138.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/139.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/139.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/14.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/14.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/140.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/140.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/141.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/141.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/142.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/142.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/143.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/143.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/144.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/144.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/145.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/145.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/146.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/146.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/147.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/147.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/148.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/148.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/149.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/149.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/15.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/15.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/150.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/150.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/151.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/151.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/152.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/152.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/153.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/153.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/154.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/154.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/155.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/155.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/156.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/156.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/157.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/157.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/158.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/158.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/159.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/159.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/16.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/16.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/160.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/160.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/161.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/161.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/162.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/162.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/163.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/163.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/17.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/17.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/18.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/18.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/19.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/19.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/2.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/2.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/20.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/20.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/21.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/21.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/22.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/22.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/23.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/23.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/24.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/24.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/25.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/25.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/26.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/26.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/27.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/27.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/28.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/28.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/29.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/29.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/3.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/3.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/30.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/30.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/31.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/31.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/32.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/32.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/33.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/33.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/34.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/34.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/35.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/35.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/36.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/36.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/37.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/37.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/38.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/38.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/39.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/39.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/4.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/4.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/40.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/40.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/41.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/41.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/42.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/42.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/43.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/43.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/44.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/44.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/45.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/45.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/46.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/46.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/47.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/47.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/48.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/48.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/49.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/49.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/5.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/5.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/50.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/50.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/51.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/51.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/52.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/52.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/53.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/53.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/54.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/54.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/55.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/55.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/56.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/56.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/57.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/57.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/58.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/58.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/59.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/59.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/6.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/6.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/60.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/60.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/61.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/61.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/62.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/62.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/63.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/63.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/64.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/64.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/65.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/65.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/66.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/66.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/67.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/67.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/68.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/68.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/69.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/69.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/7.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/7.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/70.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/70.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/71.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/71.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/72.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/72.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/73.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/73.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/74.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/74.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/75.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/75.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/76.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/76.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/77.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/77.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/78.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/78.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/79.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/79.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/8.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/8.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/80.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/80.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/81.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/81.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/82.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/82.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/83.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/83.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/84.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/84.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/85.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/85.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/86.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/86.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/87.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/87.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/88.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/88.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/89.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/89.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/9.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/9.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/90.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/90.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/91.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/91.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/92.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/92.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/93.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/93.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/94.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/94.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/95.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/95.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/96.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/96.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/97.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/97.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/98.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/98.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/bin/99.bin" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/bin/99.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/preprocess/savemfcc.m" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/savemfcc.m" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/realtime_faceGen.py" beforeDir="false" afterPath="$PROJECT_DIR$/realtime_faceGen.py" afterDir="false" />
     </list>
@@ -22,36 +182,39 @@
     <session id="-1200024319">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="23" />
-          <entry key="project.open.time.0" value="7" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.3" value="2" />
-          <entry key="project.open.time.4" value="6" />
-          <entry key="project.open.time.5" value="5" />
+          <entry key="project.closed" value="39" />
+          <entry key="project.open.time.0" value="13" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.3" value="4" />
+          <entry key="project.open.time.4" value="9" />
+          <entry key="project.open.time.5" value="6" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="25" />
+          <entry key="project.opened" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="20" />
+          <entry key="csv" value="1" />
+          <entry key="py" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="20" />
+          <entry key="CSV" value="1" />
+          <entry key="Python" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="7642" />
+          <entry key="py" value="8737" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="7642" />
+          <entry key="Python" value="8737" />
         </counts>
       </usages-collector>
     </session>
@@ -61,8 +224,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/realtime_faceGen.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="100" column="14" selection-start-line="100" selection-start-column="14" selection-end-line="100" selection-end-column="14" />
+            <state relative-caret-position="85">
+              <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -71,12 +234,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testMATLAB.py">
+        <entry file="file://$PROJECT_DIR$/mfcc_htk.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+            <state relative-caret-position="187">
+              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
               <folding>
-                <element signature="e#0#14#0" expanded="true" />
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HTKFeat.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,6 +289,11 @@
       <find>Test_Outside_loader</find>
       <find>mfcc_</find>
       <find>opt</find>
+      <find>mat</find>
+      <find>filter_mat</find>
+      <find>win_shift</find>
+      <find>samp</find>
+      <find>win_len</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -130,6 +310,9 @@
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/mfzz.py" />
         <option value="$PROJECT_DIR$/testMATLAB.py" />
+        <option value="$PROJECT_DIR$/MFCC_python.py" />
+        <option value="$PROJECT_DIR$/HTKFeat.py" />
+        <option value="$PROJECT_DIR$/mfcc_htk.py" />
         <option value="$PROJECT_DIR$/realtime_faceGen.py" />
       </list>
     </option>
@@ -141,10 +324,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-5" />
-    <option name="y" value="20" />
+    <option name="x" value="-10" />
     <option name="width" value="980" />
-    <option name="height" value="989" />
+    <option name="height" value="1090" />
   </component>
   <component name="ProjectId" id="1VFGgPIcBet5Q52PTf802O6juSO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -155,6 +337,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,36 +345,15 @@
               <item name="DAVS" type="b2602c69:ProjectViewProjectNode" />
               <item name="DAVS" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="DAVS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DAVS" type="462c0819:PsiDirectoryNode" />
-              <item name="Dataloader" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DAVS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DAVS" type="462c0819:PsiDirectoryNode" />
-              <item name="network" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DAVS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DAVS" type="462c0819:PsiDirectoryNode" />
-              <item name="Test_Gen_Models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DAVS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DAVS" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PPO_reinforcement" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
@@ -209,6 +371,27 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.realtime_faceGen">
+    <configuration name="MFCC_python" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Talking-Face-Generation-DAVS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MFCC_python.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="mfzz" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Talking-Face-Generation-DAVS" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -293,41 +476,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_code" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Talking-Face-Generation-DAVS" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_code.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.test_code" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.realtime_faceGen" />
       <item itemvalue="Python.mfzz" />
       <item itemvalue="Python.testMATLAB" />
+      <item itemvalue="Python.MFCC_python" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.realtime_faceGen" />
+        <item itemvalue="Python.MFCC_python" />
         <item itemvalue="Python.testMATLAB" />
         <item itemvalue="Python.mfzz" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.test_code" />
       </list>
     </recent_temporary>
   </component>
@@ -358,12 +520,12 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12095175" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16721745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36644295" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41073826" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -506,9 +668,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/matfcc/for_redistribution_files_only/matfcc/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/matfcc/for_redistribution_files_only/matfcc/__init__.py" />
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -516,22 +676,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/realtime_faceGen.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="100" column="14" selection-start-line="100" selection-start-column="14" selection-end-line="100" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testMATLAB.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filter.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-3968">
+          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTK.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vox1/preprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MFCC_python.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTKFeat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mfcc_htk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/realtime_faceGen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>

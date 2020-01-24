@@ -10,20 +10,20 @@ function savemfcc(file_name, save_dir)
         % savemfcc('0572_0019_0003.wav','bin')
         [Speech, fs] = audioread(file_name);
         %Speech = Speech(1:400,:);
-        disp(size(Speech))
         [length_of_speech, channel] = size(Speech);
         if channel == 2
             Speech = (Speech(:, 1));
         end
+        Speech = Speech(1:3440);
         
         [ MFCCs, ~, ~ ] = runmfcc( Speech, opt );
         mfccs = MFCCs(2:end, :);
-        disp(size(MFCCs))
-        num_bins = floor(length_of_speech / fs * 25);
-        disp('num_bins')
-        disp(num_bins)
-        for l = 2:num_bins - 4
-            save_mfcc20 = mfccs(:, 4 * l -7  : 4 * l + 19 -7);
+        disp('output is:')
+        disp(size(mfccs))
+        num_bins = floor(length_of_speech / fs * 5);
+        for l = 2:5:num_bins-1
+            save_mfcc20 = mfccs(:, 20*l  : 20*l+19);
+            pause
             f2 = fopen(fullfile(save_dir, [num2str(l), '.bin']), 'wb');
             
             fwrite(f2, save_mfcc20, 'double');
